@@ -1,0 +1,282 @@
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+header{
+    position: relative;
+}
+
+#icon{
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.my-green{
+    color: greenyellow;
+}
+
+.know{
+    font-size: 25px;
+    position: absolute;
+    top: 17px;
+    left: 70%;
+    font-family: "Sawarabi Mincho";
+}
+
+.eat{
+    font-size: 25px;
+    position: absolute;
+    top: 17px;
+    left: 77%;
+    font-family: "Sawarabi Mincho";
+}
+
+.look{
+    font-size: 25px;
+    position: absolute;
+    top: 17px;
+    left: 85%;
+    font-family: "Sawarabi Mincho";
+}
+
+.buy{
+    font-size: 25px;
+    position: absolute;
+    top: 17px;
+    left: 91%;
+    font-family: "Sawarabi Mincho";
+}
+
+.imgspace{
+    background-image: url(/img/kameidotenzin_photo.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+}
+
+.textSpace{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+}
+
+.titleSpace1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.titleSpace2{
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    writing-mode: vertical-rl;
+    font-size: 40px;
+    margin-left: 10px;
+}
+
+p{
+    writing-mode: vertical-rl;
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.content1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contentTextSpace1{
+    display: flex;
+}
+
+.templeNameSpace1{
+    writing-mode: vertical-rl;
+}
+
+.templeNumber1{
+    text-orientation: upright;
+    font-size: 200px;
+    font-family: "Sawarabi Mincho";
+    color: #eeeeee;
+    z-index: -5;
+}
+
+.templeName1{
+    font-size: 50px;
+    /* font-family: "Sawarabi Mincho"; */
+}
+
+.contentText1{
+    writing-mode: vertical-rl;
+    margin-right: 30px;
+}
+
+.content2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contentTextSpace2{
+    display: flex;
+}
+
+.templeNameSpace2{
+    writing-mode: vertical-rl;
+}
+
+.templeNumber2{
+    text-orientation: upright;
+    font-size: 200px;
+    font-family: "Sawarabi Mincho";
+    color: #eeeeee;
+    z-index: -5;
+}
+
+.templeName2{
+    font-size: 50px;
+    /* font-family: "Sawarabi Mincho"; */
+}
+
+.contentText2{
+    writing-mode: vertical-rl;
+    margin-right: 30px;
+}
+
+.content3{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contentTextSpace3{
+    display: flex;
+}
+
+.templeNameSpace3{
+    writing-mode: vertical-rl;
+}
+
+.templeNumber3{
+    text-orientation: upright;
+    font-size: 200px;
+    font-family: "Sawarabi Mincho";
+    color: #eeeeee;
+    z-index: -5;
+}
+
+.templeName3{
+    font-size: 50px;
+    /* font-family: "Sawarabi Mincho"; */
+}
+
+.contentText3{
+    writing-mode: vertical-rl;
+    margin-right: 30px;
+}
+
+.content4{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contentTextSpace4{
+    display: flex;
+}
+
+.templeNameSpace4{
+    writing-mode: vertical-rl;
+}
+
+.templeNumber4{
+    text-orientation: upright;
+    font-size: 200px;
+    font-family: "Sawarabi Mincho";
+    color: #eeeeee;
+    z-index: -5;
+}
+
+.templeName4{
+    font-size: 50px;
+    /* font-family: "Sawarabi Mincho"; */
+}
+
+.contentText4{
+    writing-mode: vertical-rl;
+    margin-right: 30px;
+}
+
+.content5{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contentTextSpace5{
+    display: flex;
+}
+
+.templeNameSpace5{
+    writing-mode: vertical-rl;
+}
+
+.templeNumber5{
+    text-orientation: upright;
+    font-size: 200px;
+    font-family: "Sawarabi Mincho";
+    color: #eeeeee;
+    z-index: -5;
+}
+
+.templeName5{
+    font-size: 50px;
+    /* font-family: "Sawarabi Mincho"; */
+}
+
+.contentText5{
+    writing-mode: vertical-rl;
+    margin-right: 30px;
+}
+
+.content6{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contentTextSpace6{
+    display: flex;
+}
+
+.templeNameSpace6{
+    writing-mode: vertical-rl;
+}
+
+.templeNumber6{
+    text-orientation: upright;
+    font-size: 200px;
+    font-family: "Sawarabi Mincho";
+    color: #eeeeee;
+    z-index: -5;
+}
+
+.templeName6{
+    font-size: 50px;
+    /* font-family: "Sawarabi Mincho"; */
+}
+
+.contentText6{
+    writing-mode: vertical-rl;
+    margin-right: 30px;
+}
+
+footer{
+    height: 30px;
+    text-align: center;
+    font-family: "Sawarabi Mincho";
+}

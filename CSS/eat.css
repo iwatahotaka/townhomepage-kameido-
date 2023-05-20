@@ -1,0 +1,385 @@
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+header{
+    position: relative;
+}
+
+#icon{
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.my-green{
+    color: greenyellow;
+}
+
+.know{
+    font-size: 25px;
+    position: absolute;
+    top: 17px;
+    left: 70%;
+    font-family: "Sawarabi Mincho";
+}
+
+.eat{
+    font-size: 25px;
+    position: absolute;
+    top: 17px;
+    left: 77%;
+    font-family: "Sawarabi Mincho";
+}
+
+.look{
+    font-size: 25px;
+    position: absolute;
+    top: 17px;
+    left: 85%;
+    font-family: "Sawarabi Mincho";
+}
+
+.buy{
+    font-size: 25px;
+    position: absolute;
+    top: 17px;
+    left: 91%;
+    font-family: "Sawarabi Mincho";
+}
+
+.backgroundSpace{
+    background-image: url(/img/turtle_photo.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.gyouza{
+    border: none;
+    background: transparent;
+}
+
+#popup-wrapper-gyoza{
+    background-color: rgba(0, 0, 0, .5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#popup-inside-gyoza{
+    text-align: center;
+    width: 100%;
+    background: white;
+    max-width: 700px;
+    margin: 10% auto;
+    padding: 20px;
+    position: relative;
+    border-radius: 7%;
+}
+
+#close-gyoza{
+    position: absolute;
+    top: 0;
+    right: 5px;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+/* #massage-gyoza{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+} */
+
+.gyoza-massage-text{
+    font-family: "Sawarabi Mincho";
+}
+
+.imgSpace1{
+    transition-duration: 0.5s;
+}
+
+.imgSpace1 img{
+    cursor: pointer;
+}
+
+.imgSpace1:hover{
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
+
+.photoSpace1{
+    width: 180px;
+}
+
+.ramen{
+    border: none;
+    background: transparent;
+}
+
+#popup-wrapper-ramen{
+    background-color: rgba(0, 0, 0, .5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#popup-inside-ramen{
+    text-align: center;
+    width: 100%;
+    background: white;
+    max-width: 700px;
+    margin: 10% auto;
+    padding: 20px;
+    position: relative;
+    border-radius: 7%;
+}
+
+#close-ramen{
+    position: absolute;
+    top: 0;
+    right: 5px;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+/* #massage-ramen{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+} */
+
+.ramen-massage-text{
+    font-family: "Sawarabi Mincho";
+}
+
+.imgSpace2{
+    transition-duration: 0.5s;
+}
+
+.imgSpace2 img{
+    cursor: pointer;
+}
+
+.imgSpace2:hover{
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
+
+.photoSpace2{
+    width: 180px;
+}
+
+.bar{
+    border: none;
+    background: transparent;
+}
+
+#popup-wrapper-bar{
+    background-color: rgba(0, 0, 0, .5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#popup-inside-bar{
+    text-align: center;
+    width: 100%;
+    background: white;
+    max-width: 700px;
+    margin: 10% auto;
+    padding: 20px;
+    position: relative;
+    border-radius: 7%;
+}
+
+#close-bar{
+    position: absolute;
+    top: 0;
+    right: 5px;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+/* #massage-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+} */
+
+.bar-massage-text{
+    font-family: "Sawarabi Mincho";
+}
+
+.imgSpace3{
+    text-align: center;
+}
+
+.photoSpace3{
+    width: 130px;
+    border: 2px solid black;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.photoSpace3:hover{
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
+
+.horumon{
+    border: none;
+    background: transparent;
+}
+
+#popup-wrapper-horumon{
+    background-color: rgba(0, 0, 0, .5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#popup-inside-horumon{
+    text-align: center;
+    width: 100%;
+    background: white;
+    max-width: 700px;
+    margin: 10% auto;
+    padding: 20px;
+    position: relative;
+    border-radius: 7%;
+}
+
+#close-horumon{
+    position: absolute;
+    top: 0;
+    right: 5px;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+/* #massage-horumon{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+} */
+
+.horumon-massage-text{
+    font-family: "Sawarabi Mincho";
+}
+
+
+.imgSpace4{
+    transition-duration: 0.5s;
+}
+
+.imgSpace4{
+    cursor: pointer;
+}
+
+.imgSpace4:hover{
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
+
+.photoSpace4{
+    width: 180px;
+}
+
+.yakisoba{
+    border: none;
+    background: transparent;
+}
+
+#popup-wrapper-yakisoba{
+    background-color: rgba(0, 0, 0, .5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#popup-inside-yakisoba{
+    text-align: center;
+    width: 100%;
+    background: white;
+    max-width: 700px;
+    margin: 10% auto;
+    padding: 20px;
+    position: relative;
+    border-radius: 7%;
+}
+
+#close-yakisoba{
+    position: absolute;
+    top: 0;
+    right: 5px;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+/* #massage-yakisoba{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+} */
+
+.yakisoba-massage-text{
+    font-family: "Sawarabi Mincho";
+}
+
+.imgSpace5{
+    transition-duration: 0.5s;
+}
+
+.imgSpace5{
+    cursor: pointer;
+}
+
+.imgSpace5:hover{
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
+
+.photoSpace5{
+    width: 180px;
+}
+
+.column1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.column2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+footer{
+    height: 30px;
+    text-align: center;
+    font-family: "Sawarabi Mincho";
+}

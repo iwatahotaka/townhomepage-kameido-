@@ -1,0 +1,245 @@
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+header{
+    position: relative;
+}
+
+#icon{
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.my-green{
+    color: greenyellow;
+}
+
+.know{
+    font-size: 25px;
+    position: absolute;
+    top: 17px;
+    left: 70%;
+    font-family: "Sawarabi Mincho";
+}
+
+.eat{
+    font-size: 25px;
+    position: absolute;
+    top: 17px;
+    left: 77%;
+    font-family: "Sawarabi Mincho";
+}
+
+.look{
+    font-size: 25px;
+    position: absolute;
+    top: 17px;
+    left: 85%;
+    font-family: "Sawarabi Mincho";
+}
+
+.buy{
+    font-size: 25px;
+    position: absolute;
+    top: 17px;
+    left: 91%;
+    font-family: "Sawarabi Mincho";
+}
+
+.imgspace{
+    background-image: url(/img/kameidotenzin_photo.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px;
+}
+
+.textSpace{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+}
+
+.textSpace1{
+    /* writing-mode: vertical-rl; */
+    font-family: "Sawarabi Mincho";
+    font-size: 60px;
+    color: #fff;
+    text-decoration: underline white 2px;
+    margin-right: 120px;
+    position: absolute;
+    top: 30px;
+}
+
+.textSpace2{
+    font-family: "Sawarabi Mincho";
+    font-size: 60px;
+    color: #fff;
+    text-decoration: underline white 2px;
+    margin-right: 120px;
+    position: absolute;
+    top: 90px;
+}
+
+.textSpace3{
+    font-family: "Sawarabi Mincho";
+    font-size: 60px;
+    color: #fff;
+    text-decoration: underline white 2px;
+    margin-right: 60px;
+    position: absolute;
+    top: 150px;
+}
+
+.textArea1{
+    position: relative;
+}
+
+.subtitle1{
+    font-size: 200px;
+    font-family: "Sawarabi Mincho";
+    color: #eeeeee;
+    z-index: -5;
+}
+
+.subtitle2{
+    font-size: 200px;
+    margin-left: 300px;
+    font-family: "Sawarabi Mincho";
+    color: #eeeeee;
+    z-index: -5;
+}
+
+.subtitle3{
+    position: absolute;
+    top: 150px;
+    font-size: 100px;
+    font-family: "Sawarabi Mincho";
+}
+
+.content1{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 400px;
+}
+
+.textContent1{
+    font-family: "Sawarabi Mincho";
+    font-size: 20px;
+}
+
+.kameidoStreet{
+    width: 450px;
+    position: absolute;
+    top: 200px;
+    right: 0;
+}
+
+.textArea2{
+    position: relative;
+}
+
+.subtitle4{
+    font-size: 200px;
+    font-family: "Sawarabi Mincho";
+    color: #eeeeee;
+    z-index: -5;
+}
+
+.subtitle5{
+    position: absolute;
+    top: 150px;
+    font-size: 100px;
+    font-family: "Sawarabi Mincho";
+}
+
+.content2{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 300px;
+}
+
+.textContent2{
+    font-family: "Sawarabi Mincho";
+    font-size: 20px;
+}
+
+.old_photo{
+    width: 450px;
+    position: absolute;
+    top: 200px;
+    right: 0;
+}
+
+.textArea3{
+    position: relative;
+}
+
+.subtitle6{
+    font-size: 200px;
+    font-family: "Sawarabi Mincho";
+    color: #eeeeee;
+    z-index: -5;
+}
+
+.subtitle7{
+    font-size: 200px;
+    margin-left: 300px;
+    font-family: "Sawarabi Mincho";
+    color: #eeeeee;
+    z-index: -5;
+}
+
+.subtitle8{
+    position: absolute;
+    top: 150px;
+    font-size: 100px;
+    font-family: "Sawarabi Mincho";
+}
+
+.kuzumochiTitle{
+    font-family: "Sawarabi Mincho";
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.kuzumochiText{
+    font-family: "Sawarabi Mincho";
+    font-size: 20px;
+}
+
+.masyumaroTitle{
+    font-family: "Sawarabi Mincho";
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.masyumaroText{
+    font-family: "Sawarabi Mincho";
+    font-size: 20px;
+}
+.edokirikoTitle{
+    font-family: "Sawarabi Mincho";
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.edokirikoText{
+    font-family: "Sawarabi Mincho";
+    font-size: 20px;
+}
+
+footer{
+    height: 30px;
+    text-align: center;
+    font-family: "Sawarabi Mincho";
+}
